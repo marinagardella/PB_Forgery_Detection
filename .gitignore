@@ -1,0 +1,7 @@
+*.o
+ponom_src/ponomarenko/ponomarenko
+ponom_src/ponomarenko_extract/ponomarenko
+results/
+venv/
+__pycache__/
+
