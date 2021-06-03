@@ -8,18 +8,18 @@ A complex processing chain is applied from the moment a raw image is acquired un
 <p align="center"> <img src="https://user-images.githubusercontent.com/47035045/120171886-ca9de280-c202-11eb-90a9-6b23e8b7491b.png" width="50%"> </p>
 
 ## How to run the code
-The compiling instruction for the Ponomarenko et al noise estimation method is just `make -j4 -C` from the directories where the Makefiles are ("ponom_src/ponomarenko/" and "ponom_src/ponomarenko_extract/").
+The compiling instruction for the Ponomarenko et al noise estimation method is just `make -j4` from the directories where the Makefiles are ("ponom_src/ponomarenko/" and "ponom_src/ponomarenko_extract/").
 
 The libraries needed to run the program are listed in the file requirements.txt.
 You can do the following to install them in a virtual environment (venv):
 
 Install Python 3 and upgrade pip:
 
-`sudo apt-get update`
+`sudo apt update`
 
-`sudo apt-get install -y python3 python3-dev python3-pip python3-venv`
+`sudo apt install -y python3 python3-dev python3-pip python3-venv`
 
-`pip install --upgrade pip`
+`pip install --user --upgrade pip`
 
 Create the venv, activate it, and install the requirements:
 
